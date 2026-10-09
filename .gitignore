@@ -1,0 +1,37 @@
+# Simulation output
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.vpd
+*.wlf
+*.ghw
+
+# Common HDL build products
+obj_dir/
+sim_build/
+work/
+db/
+incremental_db/
+output_files/
+*.sof
+*.pof
+*.jic
+*.rbf
+*.bit
+
+# FPGA tool temporary/project output
+.Xil/
+.cache/
+*.jou
+*.log
+*.str
+*.smsg
+*.tmp
+
+# Editor and operating system noise
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

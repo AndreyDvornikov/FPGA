@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Декоративная иллюстрация печатной платы и цифрового сигнала">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#172c40"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#48d6bf"/>
+      <stop offset="1" stop-color="#6c9cff"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#47d9c0" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#47d9c0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#7693aa" opacity=".18"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="280" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="24" fill="url(#grid)"/>
+  <circle cx="590" cy="140" r="245" fill="url(#glow)"/>
+  <g fill="none" stroke="url(#trace)" stroke-linecap="round" stroke-linejoin="round" opacity=".8">
+    <path d="M0 74h150l30 30h118" stroke-width="3"/>
+    <path d="M0 100h98l42 42h158" stroke-width="2" opacity=".65"/>
+    <path d="M0 218h126l44-44h128" stroke-width="3"/>
+    <path d="M1200 61h-116l-40 40h-154" stroke-width="3"/>
+    <path d="M1200 91h-76l-60 60h-174" stroke-width="2" opacity=".65"/>
+    <path d="M1200 218h-134l-42-42h-134" stroke-width="3"/>
+    <path d="M468 0v42l34 34v26m196-102v36l-28 28v28m-166 188v-36l28-28v-22m138 86v-31l-30-30v-23" stroke-width="2" opacity=".5"/>
+  </g>
+  <g fill="#111d2c" stroke="#58d9c4" stroke-width="2">
+    <rect x="416" y="76" width="368" height="128" rx="20"/>
+    <rect x="448" y="96" width="64" height="88" rx="10" fill="#1e3948"/>
+    <rect x="688" y="96" width="64" height="88" rx="10" fill="#1e3948"/>
+  </g>
+  <g fill="none" stroke="#7ce1d0" stroke-width="3" stroke-linecap="round" opacity=".85">
+    <path d="M416 94h-24m24 24h-24m24 24h-24m24 24h-24m24 24h-24"/>
+    <path d="M784 94h24m-24 24h24m-24 24h24m-24 24h24m-24 24h24"/>
+  </g>
+  <g fill="none" stroke="#a8c7df" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M536 143h28l14-30 24 58 25-58 18 30h20"/>
+  </g>
+  <g fill="#65e0ca">
+    <circle cx="150" cy="74" r="5"/><circle cx="268" cy="104" r="5"/><circle cx="126" cy="218" r="5"/>
+    <circle cx="1084" cy="61" r="5"/><circle cx="890" cy="101" r="5"/><circle cx="1066" cy="218" r="5"/>
+  </g>
+  <g fill="#a5bad0" opacity=".68">
+    <circle cx="334" cy="72" r="3"/><circle cx="355" cy="72" r="3"/><circle cx="376" cy="72" r="3"/>
+    <circle cx="826" cy="207" r="3"/><circle cx="847" cy="207" r="3"/><circle cx="868" cy="207" r="3"/>
+  </g>
+</svg>
